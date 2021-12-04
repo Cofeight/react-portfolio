@@ -4,9 +4,9 @@
 }
 
 .navbar {
-  background-color: rgb(29, 122, 228);
+  background-color: rgb(20, 202, 235);
   color: white;
-  border: 10px solid red;
+  border: 10px solid rgb(39, 236, 13);
   display: flex;
   padding: 20px;
   padding-left: 30px;
@@ -15,24 +15,48 @@
 }
 
 .navname a {
-  font-size: 48px;
+  font-size: 36px;
   text-decoration: none;
+  color: #000000;
+  transition: 0.7s;
+  background-color: rgb(20, 202, 235);
 }
 
 .navname a:hover {
-  text-decoration: underline;
-  color: rgb(235, 53, 180);
+  color: rgb(245, 7, 177);
 }
 
-
 .navlinks a {
-  margin-left: 10px;
-  color:rgb(240, 184, 54);
+  margin-left: 20px;
+  color:rgb(3, 3, 3);
   text-decoration: none;
+  padding-right: 30px;
   font-size: 30px;
+  transition: 0.7s;
 }
 
 .navlinks a:hover {
-  color: rgb(235, 53, 180);
-  text-decoration: underline;
+  color: rgb(255, 255, 255);
 }
+
+.homeDisplay {
+  text-align: center;
+  background-color: gray;
+}
+
+.homeDisplay h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 0px 100px 0px 100px;
+}
+
+.homeDisplay a {
+  text-decoration: none;
+  color: rgb(214, 10, 233);
+}
+
+.homeDisplay a:hover {
+  color: rgb(243, 3, 35);
+}
+

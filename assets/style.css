@@ -1,0 +1,17 @@
+.block:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+.bg-image  {
+    padding:2em;
+    background: linear-gradient(45deg, white, gray, white, gray )
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+
+  }
